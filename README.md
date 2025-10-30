@@ -31,7 +31,7 @@ In this project, real-world data is ingested, processed, and transformed into in
 
 Below is the architecture diagram used for this project:
 
-> Architecture Source: Images/Project_Architecture.png
+> Architecture Source: (https://github.com/Drisatech/End-to-End-Data-Engineering-Project-Using-Microsoft-Fabric/blob/main/Images/Project_Architecture.png)
 
 
 
@@ -62,7 +62,7 @@ Stores raw and curated data in Delta format
 Shared storage across all Fabric services
 
 
-> Lakehouse Screenshot: Images/LakeHouse_Model.png
+> Lakehouse Screenshot: (https://github.com/Drisatech/End-to-End-Data-Engineering-Project-Using-Microsoft-Fabric/blob/main/Images/LakeHouse_Model.png)
 
 
 
@@ -107,7 +107,7 @@ Scoring, predictions, and model outputs stored back in OneLake
 
 Interactive dashboards built on top of curated gold tables to provide real-time insights.
 
-> Power BI Dashboard: Images/dashboard_1.png
+> Power BI Dashboard: (https://github.com/Drisatech/End-to-End-Data-Engineering-Project-Using-Microsoft-Fabric/blob/main/PowerBI/dashboard_1.png)
 
 
 
