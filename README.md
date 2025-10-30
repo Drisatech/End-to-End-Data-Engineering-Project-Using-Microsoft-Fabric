@@ -107,7 +107,7 @@ Scoring, predictions, and model outputs stored back in OneLake
 
 Interactive dashboards built on top of curated gold tables to provide real-time insights.
 
-> Power BI Dashboard: [Images/dashboard_1](https://github.com/Drisatech/End-to-End-Data-Engineering-Project-Using-Microsoft-Fabric/blob/main/PowerBI/dashboard_1.png)
+> Power BI Dashboard: [PowerBI/dashboard_1](https://github.com/Drisatech/End-to-End-Data-Engineering-Project-Using-Microsoft-Fabric/blob/main/PowerBI/dashboard_1.png)
 
 
 
