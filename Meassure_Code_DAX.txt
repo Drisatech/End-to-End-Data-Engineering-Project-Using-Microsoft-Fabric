@@ -1,0 +1,46 @@
+Meassure Creation Code DAX :
+
+#1.
+
+Positive Sentiment % = 
+IF (
+    COUNTROWS ( FILTER ( 'senti_analysis_bing', 'senti_analysis_bing'[sentiment] = "positive" ) ) > 0,
+    DIVIDE (
+        CALCULATE (
+            COUNTROWS ( 'senti_analysis_bing' ),
+            'senti_analysis_bing'[sentiment] = "positive"
+        ),
+        COUNTROWS ( 'senti_analysis_bing' )
+    )*100,
+    0
+)
+
+#2.
+
+Negative Sentiment % = 
+IF (
+    COUNTROWS ( FILTER ( 'senti_analysis_bing', 'senti_analysis_bing'[sentiment] = "negative" ) ) > 0,
+    DIVIDE (
+        CALCULATE (
+            COUNTROWS ( 'senti_analysis_bing' ),
+            'senti_analysis_bing'[sentiment] = "negative"
+        ),
+        COUNTROWS ( 'senti_analysis_bing' )
+    )*100,
+    0
+)
+
+#3. 
+
+Neutral Sentiment % = 
+IF (
+    COUNTROWS ( FILTER ( 'senti_analysis_bing', 'senti_analysis_bing'[sentiment] = "neutral" ) ) > 0,
+    DIVIDE (
+        CALCULATE (
+            COUNTROWS ( 'senti_analysis_bing' ),
+            'senti_analysis_bing'[sentiment] = "neutral"
+        ),
+        COUNTROWS ( 'senti_analysis_bing' )
+    )*100,
+    0
+)
